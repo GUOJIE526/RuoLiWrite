@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-    <title>若莉寫字 RuoLi Writing</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>若莉寫字 RuoLi Writing</title>
+    
 </head>
 <body>
     <header class="site-header">
@@ -26,30 +28,52 @@
         </nav>
     </header>
 
-    <section class="home section" id="home">
-        <div class="home-content">
-            <h1>若莉的書法迴廊</h1>
-            <p>探索書法之美，體驗墨跡中的藝術與靈魂</p>
-            <button class="hero-button">了解更多</button>
+    <section id="home">
+        <div class="home section">
+            <div class="home-content">
+                <h1>若莉的書法迴廊</h1>
+                <p>探索書法之美，體驗墨跡中的藝術與靈魂</p>
+                <button class="hero-button">了解更多</button>
+            </div>
         </div>
     </section>
     
     <!-- 書法迴廊 -->
-    <section class="section" id="services">
-        <div class="container">
-            <div class="slide">
-                <div class="item" style="background-image: url('assets/img01.jpg');"></div>
-                <div class="item" style="background-image: url('assets/img02.jpg');"> </div>
-                <div class="item" style="background-image: url('assets/img03.jpg');"></div>
-                <div class="item" style="background-image: url('assets/img04.jpg');"></div>
+    <section id="services">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2>龍騰福躍</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>世俗</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>靜</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>心情</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>不負如來、不負卿</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>斜陽、竹林</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>青春歲月</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>無常</h2>
+                </div>
+                <div class="swiper-slide">
+                    <h2>靠山</h2>
+                </div>
             </div>
-            <div class="button">
-                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
-             </div>
         </div>
     </section>
-
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

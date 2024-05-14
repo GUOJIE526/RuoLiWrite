@@ -2,20 +2,16 @@ function toggleMenu() {
   var nav = document.querySelector(".site-nav");
   nav.classList.toggle("active");
 }
-
-document.querySelector(".hero-button").addEventListener("click", function () {
-  window.location.href = "#about";
-});
-
-let next = document.querySelector(".next");
-let prev = document.querySelector(".prev");
-
-next.addEventListener("click", function () {
-  let items = document.querySelectorAll(".item");
-  document.querySelector(".slide").appendChild(items[0]);
-});
-
-prev.addEventListener("click", function () {
-  let items = document.querySelectorAll(".item");
-  document.querySelector(".slide").prepend(items[items.length - 1]); // here the length of items = 6
+var swiper = new Swiper(".swiper", {
+  effect: "cards",
+  grabcursor: true,
+  initialSlide: 4,
+  speed: 500,
+  rotate: true,
+  // autoplay: {
+  //     delay: 1000,
+  // },
+  mousewheel: {
+    invert: false,
+  },
 });

@@ -48,7 +48,7 @@ body, html {
 }    
 
 .hero-section {
-    background: url('assets/img\ \(23\).jpg') no-repeat center center;
+    background: url('assets/background.jpg') no-repeat center center;
     background-size: contain;
     background-position: center;
     height: 100%;

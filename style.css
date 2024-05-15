@@ -189,7 +189,7 @@ section{
 
     .site-nav a {
         margin: 0 10px;
-        line-height: 1;
+        line-height: 1.5;
         font-size: 14px;
     }
 
@@ -198,7 +198,7 @@ section{
     }
 
     .site-header {
-        padding: 0 20px;
+        padding: 10px 20px;
     }
 
     .menu-icon {
@@ -228,12 +228,12 @@ section{
         margin-top: -10px;
     }
     .swiper {
-        width: 90%;
+        width: 70%;
         height: auto;
     }
 
     .swiper-slide {
-        height: 600px;
+        height: 550px;
         margin-bottom: 35px;
     }
 

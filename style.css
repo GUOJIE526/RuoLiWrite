@@ -97,7 +97,7 @@ section{
     margin-top: 10px;
 }
 
-.home-btn {
+.gallery-btn {
     background-color: #007BFF;
     margin-top: -10px;
     border: none;
@@ -107,12 +107,12 @@ section{
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-.home-btn a{
+.gallery-btn a{
     text-decoration:none;
     color: white;
 }
 
-.hero-button:hover {
+.gallery-btn:hover {
     background-color: #0056b3;
 }
 /* swiper 書法迴廊 */
